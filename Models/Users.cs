@@ -12,9 +12,13 @@ namespace WebAPICore.Models
 
         public string ID { get; set; }
 
-        public string Cmp_Name { get; set; }
+        public string Name { get; set; }
 
         public string Address { get; set; }
+
+        public string Acc_no { get; set; }
+
+        public string password { get; set; }
 
     }
 }
